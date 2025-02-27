@@ -4,6 +4,8 @@ Program area_triangulo;
 
 Begin
 
+	Writeln('----------|Calculadora de area de triângulo|----------');
+	
 	Write('Digite o valor(cm) da base do triângulo: ');
 	Read(base);
 	
@@ -11,7 +13,8 @@ Begin
 	Read(altura);
 	
 	area := (base * altura) / 2;
-	
+	                                         //Primerio 0 são os valores antes da virgula. O número 2 se refere aos números após a virgula
 	Write('O valor da area do triângulo é ', area:0:2, 'cm');
-
+	Writeln();
+	Write('--------------------------------------------------------');
 End.
