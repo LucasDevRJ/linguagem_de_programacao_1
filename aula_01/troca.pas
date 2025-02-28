@@ -13,14 +13,14 @@ Program troca;
 Begin
   
 	Write('Digite o valor para a variável a: ');
-	Read(a);   //5
+	Read(a);  
 	
 	Write('Digite o valor para a variável b: ');
-	Read(b);    //7
+	Read(b);    
 	
-	troca := a; //troca = 5
-	a := b; //a = 7
-	b := troca; //b = 5
+	troca := a; 
+	a := b; 
+	b := troca; 
 	
 	Writeln('A variável a agora vale: ', a);
 	Writeln('A variável b agora vale: ', b);
