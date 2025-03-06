@@ -1,9 +1,8 @@
 (*
-	1) Imagine que é preciso informar ao usuário se um número
-	é maior que 10 e, simultaneamente, menor que 20:
+	1) Imagine que é preciso informar ao usuário se um número é maior que 10 e, simultaneamente, menor que 20:
 *)
 
-Program exercicio_01 ;
+Program exercicio_01;
 
 	Var numero: integer;
 

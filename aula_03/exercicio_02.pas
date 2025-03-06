@@ -3,7 +3,7 @@
 *)
 
 Program exercicio_02;
-
+												 
 	Var numero: integer;
 
 Begin
