@@ -8,8 +8,7 @@
 Program exercicio_02;
 
 	Var nome : string;
-	Var salario_fixo, percentual_ganhos_venda, salario_total : real;
-	Var total_vendas : integer;
+	Var salario_fixo, percentual_ganhos_venda, salario_total, total_vendas : real;
 
 Begin
 
@@ -19,7 +18,7 @@ Begin
 	Write('Digite o salário fixo: R$');
 	Read(salario_fixo);
 	
-	Write('Digite o total de vendas: ');
+	Write('Digite o total de vendas: R$');
 	Read(total_vendas);
 	
 	Write('Digite o percentual de ganhos por cada venda: ');
@@ -30,7 +29,7 @@ Begin
 	Writeln('----------|FOLHA SALARIAL|----------');
 	Writeln('Nome: ', nome);
 	Writeln('Salário Fixo: R$', salario_fixo:0:2);
-	Writeln('Total de Vendas: ', total_vendas);
+	Writeln('Total de Vendas: ', total_vendas:0:2);
 	Writeln('Percentual de ganho por venda: ', percentual_ganhos_venda:0:2, '%');
 	Writeln('Salário Total: R$', salario_total:0:2);
 	Writeln('------------------------------------');
