@@ -1,4 +1,4 @@
-Program exercicio_02;
+Program ordem_decrescente;
 
 	Var contador : integer;
 
