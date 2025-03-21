@@ -9,6 +9,6 @@ Begin
   repeat
   	writeln('Aguarde...');
   	contador := contador + 1;
-  until (contador > 100);
+  until (contador > 10);
   
 End.
