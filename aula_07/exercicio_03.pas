@@ -6,7 +6,7 @@
 
 Program exercicio_03;
 
-	Var imc, peso, altura : real;
+	Var imc, peso, altura : real; 
 
 Begin
 
@@ -19,6 +19,6 @@ Begin
 	imc := peso / SQR(altura);
 	
 	Writeln();
-	Writeln('O IMC é ', imc:0:2);
+	Writeln('O IMC é ', imc:0:2); 
   
 End.
