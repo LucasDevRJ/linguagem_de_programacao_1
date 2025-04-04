@@ -23,17 +23,17 @@ Begin
 	    b := troca;
 	  End;
 	
-	if (b > c) then
-		Begin
-	    troca := b;
-	    b := c;
-	    c := troca;
-	  End;
-	
 	if (a > c) then
 		Begin
 	    troca := a;
 	    a := c;
+	    c := troca;
+	  End;
+	
+	if (b > c) then
+		Begin
+	    troca := b;
+	    b := c;
 	    c := troca;
 	  End;
   
